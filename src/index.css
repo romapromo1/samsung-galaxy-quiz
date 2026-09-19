@@ -16,11 +16,9 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     touch-action: manipulation;
     user-select: none;
     -webkit-user-select: none;
-    overscroll-behavior: none;
     background-color: #ffffff;
     color: #0f172a;
     font-family: 'Unbounded', 'Manrope', system-ui, sans-serif;
