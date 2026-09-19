@@ -15,7 +15,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart })
         </h2>
       </div>
 
-      {/* Main Score: 40% larger */}
+      {/* Main Score */}
       <div className="flex flex-col items-center text-center space-y-8 my-auto">
         <span className="text-4xl md:text-6xl lg:text-7xl font-black text-slate-800 leading-tight">
           КОЛИЧЕСТВО ПРАВИЛЬНЫХ ОТВЕТОВ:
@@ -28,11 +28,11 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart })
         </div>
       </div>
 
-      {/* Restart Button: 40% larger */}
+      {/* Restart Button: 100% straight corners */}
       <div className="w-full max-w-3xl pb-6">
         <button
           onClick={onRestart}
-          className="w-full h-28 md:h-40 rounded-3xl md:rounded-[44px] bg-black text-white hover:bg-slate-800 active:scale-95 font-black text-4xl md:text-6xl lg:text-7xl shadow-2xl transition-all cursor-pointer flex items-center justify-center"
+          className="w-full h-28 md:h-40 bg-black text-white hover:bg-slate-800 active:scale-95 font-black text-4xl md:text-6xl lg:text-7xl shadow-2xl transition-all cursor-pointer flex items-center justify-center border-2 border-black"
         >
           СЫГРАТЬ ЕЩЁ РАЗ
         </button>

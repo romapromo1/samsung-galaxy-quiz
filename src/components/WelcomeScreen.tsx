@@ -14,7 +14,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onPlayClick }) => 
 
         <button
           onClick={onPlayClick}
-          className="w-full max-w-xl h-28 md:h-36 rounded-3xl md:rounded-[40px] bg-black text-white hover:bg-slate-800 active:scale-95 text-4xl md:text-6xl font-black tracking-wider shadow-2xl transition-all duration-150 cursor-pointer flex items-center justify-center"
+          className="w-full max-w-xl h-28 md:h-36 bg-black text-white hover:bg-slate-800 active:scale-95 text-4xl md:text-6xl font-black tracking-wider shadow-2xl transition-all duration-150 cursor-pointer flex items-center justify-center"
         >
           PLAY
         </button>
