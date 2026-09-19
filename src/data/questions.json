@@ -1,0 +1,1872 @@
+[
+  {
+    "id": 1,
+    "question": "Первый смартфон Samsung Galaxy S поступил в продажу в:",
+    "options": [
+      "2008 году",
+      "2010 году",
+      "2013 году"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2010 году"
+  },
+  {
+    "id": 2,
+    "question": "Электронное перо S Pen впервые появился на смартфонах линейки:",
+    "options": [
+      "Galaxy S",
+      "Galaxy Note",
+      "Galaxy A"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Galaxy Note"
+  },
+  {
+    "id": 3,
+    "question": "Смартфоны линейки Galaxy Flip складываются:",
+    "options": [
+      "как книжка, разворачиваясь в планшет",
+      "пополам, как пудреница",
+      "как гармошка в три сложения"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "пополам, как пудреница"
+  },
+  {
+    "id": 4,
+    "question": "На какой операционной системе работают смартфоны Galaxy?",
+    "options": [
+      "iOS",
+      "Android",
+      "HarmonyOS"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Android"
+  },
+  {
+    "id": 5,
+    "question": "Умные часы Samsung называются:",
+    "options": [
+      "Galaxy Watch",
+      "Galaxy Time",
+      "Galaxy Clock"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Galaxy Watch"
+  },
+  {
+    "id": 6,
+    "question": "Беспроводные наушники Samsung называются:",
+    "options": [
+      "Galaxy Buds",
+      "Galaxy Sound",
+      "Galaxy Pods"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Galaxy Buds"
+  },
+  {
+    "id": 7,
+    "question": "Первый в мире складной смартфон Samsung Galaxy Fold вышел в:",
+    "options": [
+      "2017 году",
+      "2019 году",
+      "2021 году"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2019 году"
+  },
+  {
+    "id": 8,
+    "question": "Флагманский складной смартфон Samsung, представленный в 2026 году, называется:",
+    "options": [
+      "Galaxy S26",
+      "Galaxy Z Fold8",
+      "Galaxy A56"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Galaxy Z Fold8"
+  },
+  {
+    "id": 9,
+    "question": "Приложение для отслеживания показателей самочувствия на устройствах Samsung называется:",
+    "options": [
+      "Health Kit",
+      "Samsung Health",
+      "Galaxy Fit"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Samsung Health"
+  },
+  {
+    "id": 10,
+    "question": "Фирменный магазин приложений Samsung называется:",
+    "options": [
+      "App Store",
+      "Galaxy Store",
+      "Samsung Market"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Galaxy Store"
+  },
+  {
+    "id": 11,
+    "question": "В разложенном виде главный экран Galaxy Z Fold8 превращает смартфон в:",
+    "options": [
+      "мини-планшет",
+      "рацию",
+      "зеркало"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "мини-планшет"
+  },
+  {
+    "id": 12,
+    "question": "Внешний экран складного смартфона Samsung нужен, чтобы:",
+    "options": [
+      "заряжать часы",
+      "видеть уведомления, не раскрывая телефон",
+      "охлаждать батарею"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "видеть уведомления, не раскрывая телефон"
+  },
+  {
+    "id": 13,
+    "question": "Набор ИИ-функций во всех приложениях Galaxy называется:",
+    "options": [
+      "Galaxy AI",
+      "Smart Core",
+      "Bixby AI"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Galaxy AI"
+  },
+  {
+    "id": 14,
+    "question": "ИИ-функция на Galaxy, которая ищет информацию, если обвести объект на экране пальцем, называется:",
+    "options": [
+      "Ассистент по заметкам",
+      "Обвести и найти",
+      "Фото-ассистент"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Обвести и найти"
+  },
+  {
+    "id": 15,
+    "question": "Galaxy Watch способны измерять:",
+    "options": [
+      "только время",
+      "пульс и уровень кислорода в крови",
+      "температуру воды в бассейне"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "пульс и уровень кислорода в крови"
+  },
+  {
+    "id": 16,
+    "question": "Смарт-кольцо Samsung для отслеживания здоровья называется:",
+    "options": [
+      "Galaxy Ring",
+      "Galaxy Loop",
+      "Galaxy Circle"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Galaxy Ring"
+  },
+  {
+    "id": 17,
+    "question": "Режим DeX превращает смартфон Samsung в:",
+    "options": [
+      "будильник",
+      "компьютер",
+      "фонарик"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "компьютер"
+  },
+  {
+    "id": 18,
+    "question": "Технология защиты данных на устройствах Samsung называется:",
+    "options": [
+      "Samsung Knox",
+      "Samsung Shield",
+      "Samsung Vault"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Samsung Knox"
+  },
+  {
+    "id": 19,
+    "question": "Складные смартфоны Samsung относятся к линейке с буквой:",
+    "options": [
+      "A",
+      "Z",
+      "M"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Z"
+  },
+  {
+    "id": 20,
+    "question": "Первый Samsung Galaxy Note с электронным пером и большим экраном вышел в:",
+    "options": [
+      "2010 году",
+      "2011 году",
+      "2013 году"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2011 году"
+  },
+  {
+    "id": 21,
+    "question": "Функция Galaxy S III, которая следила за взглядом пользователя, чтобы экран не гас, называлась:",
+    "options": [
+      "Smart Stay",
+      "Eye Lock",
+      "Focus Mode"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Smart Stay"
+  },
+  {
+    "id": 22,
+    "question": "Технология Galaxy S III для передачи файлов между устройствами по Wi-Fi Direct называлась:",
+    "options": [
+      "AirDrop",
+      "S Beam",
+      "Quick Share"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "S Beam"
+  },
+  {
+    "id": 23,
+    "question": "Самым продаваемым в истории компании на момент выхода стал смартфон:",
+    "options": [
+      "Galaxy S II",
+      "Galaxy S4",
+      "Galaxy Note 5"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Galaxy S4"
+  },
+  {
+    "id": 24,
+    "question": "Первые умные часы Samsung — Galaxy Gear — вышли в:",
+    "options": [
+      "2011 году",
+      "2013 году",
+      "2016 году"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2013 году"
+  },
+  {
+    "id": 25,
+    "question": "Функция Galaxy AI, переводящая разговор в реальном времени прямо во время звонка, называется:",
+    "options": [
+      "Обвести и найти",
+      "Синхронный перевод",
+      "Фото-ассистент"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Синхронный перевод"
+  },
+  {
+    "id": 26,
+    "question": "Функция Galaxy AI для быстрого создания и структурирования заметок называется:",
+    "options": [
+      "Ассистент по заметкам",
+      "Синхронный перевод",
+      "Обвести и найти"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Ассистент по заметкам"
+  },
+  {
+    "id": 27,
+    "question": "Толщина Samsung Galaxy Z Fold8 в разложенном виде составляет примерно:",
+    "options": [
+      "1,5 мм",
+      "4,5 мм",
+      "9 мм"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "4,5 мм"
+  },
+  {
+    "id": 28,
+    "question": "Диагональ главного (внутреннего) экрана Galaxy Z Fold8 составляет:",
+    "options": [
+      "6,5 дюйма",
+      "7,6 дюйма",
+      "9 дюймов"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "7,6 дюйма"
+  },
+  {
+    "id": 29,
+    "question": "Процессор Samsung Galaxy Z Fold8 называется:",
+    "options": [
+      "Qualcomm Snapdragon 8 Elite Gen 5",
+      "Exynos 990",
+      "MediaTek Dimensity"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Qualcomm Snapdragon 8 Elite Gen 5"
+  },
+  {
+    "id": 30,
+    "question": "Чего нет у Samsung Galaxy Z Fold8?",
+    "options": [
+      "поддержки 5G",
+      "слота для S Pen",
+      "Wi-Fi"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "слота для S Pen"
+  },
+  {
+    "id": 31,
+    "question": "Ёмкость аккумулятора Galaxy Z Fold8 составляет примерно:",
+    "options": [
+      "3000 мАч",
+      "4800 мАч",
+      "7000 мАч"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "4800 мАч"
+  },
+  {
+    "id": 32,
+    "question": "Какая физическая кнопка исчезла с лицевой панели смартфонов Samsung начиная с Galaxy S8, уступив место сенсорной зоне?",
+    "options": [
+      "кнопка домой",
+      "кнопка громкости",
+      "кнопка камеры"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "кнопка домой"
+  },
+  {
+    "id": 33,
+    "question": "Прочный шарнир (петля) складного корпуса Galaxy Z Fold8 называется:",
+    "options": [
+      "Armor FlexHinge",
+      "Titan Loop",
+      "Steel Core"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Armor FlexHinge"
+  },
+  {
+    "id": 34,
+    "question": "Фирменная технология быстрой зарядки смартфонов Samsung называется:",
+    "options": [
+      "Super Fast Charging",
+      "Turbo Volt Charge",
+      "Quick Fire Charge"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Super Fast Charging"
+  },
+  {
+    "id": 35,
+    "question": "Функция Galaxy AI, умеющая улучшать и редактировать фотографии по промту, называется:",
+    "options": [
+      "Фото-ассистент",
+      "Ассистент по заметкам",
+      "Переводчик"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Фото-ассистент"
+  },
+  {
+    "id": 36,
+    "question": "Диагональ внешнего экрана Galaxy Z Fold8 составляет:",
+    "options": [
+      "4,1 дюйма",
+      "5,5 дюйма",
+      "6,9 дюйма"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5,5 дюйма"
+  },
+  {
+    "id": 37,
+    "question": "Степень защиты от пыли и влаги, заявленная у Galaxy Z Fold8:",
+    "options": [
+      "IP44",
+      "IP48",
+      "IP68"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "IP48"
+  },
+  {
+    "id": 38,
+    "question": "Экраны Galaxy Z Fold8 способны достигать пиковой яркости примерно:",
+    "options": [
+      "800 нит",
+      "3000 нит",
+      "10000 нит"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "3000 нит"
+  },
+  {
+    "id": 39,
+    "question": "Вес Samsung Galaxy Z Fold8 составляет примерно:",
+    "options": [
+      "150 г",
+      "201 г",
+      "260 г"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "201 г"
+  },
+  {
+    "id": 40,
+    "question": "Компания Samsung была основана в стране:",
+    "options": [
+      "Япония",
+      "Южная Корея",
+      "Китай"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Южная Корея"
+  },
+  {
+    "id": 41,
+    "question": "Слово \"Samsung\" в переводе с корейского означает:",
+    "options": [
+      "\"три звезды\"",
+      "\"золотой дракон\"",
+      "\"утренняя заря\""
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "\"три звезды\""
+  },
+  {
+    "id": 42,
+    "question": "Компанию Samsung основал:",
+    "options": [
+      "Ли Бён Чхоль",
+      "Стив Джобс",
+      "Акио Морита"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Ли Бён Чхоль"
+  },
+  {
+    "id": 43,
+    "question": "Штаб-квартира Samsung Electronics расположена в южнокорейском городе:",
+    "options": [
+      "Пусан",
+      "Сувон",
+      "Инчхон"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Сувон"
+  },
+  {
+    "id": 44,
+    "question": "Один из основных цветов логотипа Samsung:",
+    "options": [
+      "красный",
+      "синий",
+      "зелёный"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "синий"
+  },
+  {
+    "id": 45,
+    "question": "Компания Samsung была основана в:",
+    "options": [
+      "1938 году",
+      "1965 году",
+      "1990 году"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "1938 году"
+  },
+  {
+    "id": 46,
+    "question": "В производстве каких компонентов Samsung занимает лидирующие позиции в мире?",
+    "options": [
+      "процессоров для смартфонов",
+      "чипов памяти",
+      "фотосенсоров для камер"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "чипов памяти"
+  },
+  {
+    "id": 47,
+    "question": "Samsung удерживает первое место на мировом рынке телевизоров примерно с 2006 года — то есть уже около:",
+    "options": [
+      "5 лет",
+      "20 лет",
+      "10 лет"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "20 лет"
+  },
+  {
+    "id": 48,
+    "question": "Линейка премиальных телевизоров Samsung на технологии квантовых точек называется:",
+    "options": [
+      "QLED",
+      "OLED-Prime",
+      "UltraVision"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "QLED"
+  },
+  {
+    "id": 49,
+    "question": "Крупный кампус Samsung Electronics в Сувоне, где расположены R&D-центры и производство, называется:",
+    "options": [
+      "Samsung Digital City",
+      "Samsung Innovation Park",
+      "Samsung Future Hub"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Samsung Digital City"
+  },
+  {
+    "id": 50,
+    "question": "Компания Samsung поддержала Олимпийские игры как локальный спонсор ещё в 1988 году — они проходили в:",
+    "options": [
+      "Сеуле",
+      "Токио",
+      "Пекине"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Сеуле"
+  },
+  {
+    "id": 51,
+    "question": "Товары, с которых начинала компания Samsung в 1938 году:",
+    "options": [
+      "смартфоны",
+      "сушёная рыба, лапша и овощи",
+      "телевизоры"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "сушёная рыба, лапша и овощи"
+  },
+  {
+    "id": 52,
+    "question": "В 2012 году Samsung обогнал по мировым продажам мобильных телефонов бывшего лидера рынка:",
+    "options": [
+      "Apple",
+      "Nokia",
+      "Sony"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Nokia"
+  },
+  {
+    "id": 53,
+    "question": "Samsung производит экраны (дисплеи) не только для своих устройств, но и:",
+    "options": [
+      "для устройств других брендов",
+      "только для банкоматов",
+      "только для музеев"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "для устройств других брендов"
+  },
+  {
+    "id": 54,
+    "question": "Помимо электроники, группа компаний Samsung также работает в сфере:",
+    "options": [
+      "судостроения и страхования",
+      "сельского хозяйства",
+      "книгоиздания"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "судостроения и страхования"
+  },
+  {
+    "id": 55,
+    "question": "Название \"Samsung\" ассоциируется с образом:",
+    "options": [
+      "звёзд",
+      "облаков",
+      "гор"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "звёзд"
+  },
+  {
+    "id": 56,
+    "question": "Технология Samsung Knox на устройствах компании нужна для:",
+    "options": [
+      "защиты данных пользователя",
+      "увеличения громкости динамика",
+      "ускорения зарядки"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "защиты данных пользователя"
+  },
+  {
+    "id": 57,
+    "question": "Подразделение Samsung Electronics, выпускающее смартфоны и технику, было официально образовано в:",
+    "options": [
+      "1969 году",
+      "1938 году",
+      "1993 году"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "1969 году"
+  },
+  {
+    "id": 58,
+    "question": "Компания Samsung C&T (входит в группу Samsung) участвовала в строительстве самой высокой башни мира — она называется:",
+    "options": [
+      "Бурдж-Халифа",
+      "Эйфелева башня",
+      "Останкинская башня"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Бурдж-Халифа"
+  },
+  {
+    "id": 59,
+    "question": "В 1992 году Samsung Electronics создала первый в мире чип памяти DRAM объёмом:",
+    "options": [
+      "16 Мб",
+      "64 Мб",
+      "256 Мб"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "64 Мб"
+  },
+  {
+    "id": 60,
+    "question": "В 2000-х–2010-х годах Samsung был титульным спонсором английского футбольного клуба:",
+    "options": [
+      "Manchester United",
+      "Chelsea",
+      "Arsenal"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Chelsea"
+  },
+  {
+    "id": 61,
+    "question": "Команда по League of Legends, спонсируемая Samsung, побеждала на мировой арене под названием:",
+    "options": [
+      "Samsung Blue",
+      "Samsung Galaxy",
+      "Samsung Storm"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Samsung Galaxy"
+  },
+  {
+    "id": 62,
+    "question": "Крупная технологическая выставка в Берлине, где Samsung традиционно представляет новинки:",
+    "options": [
+      "CES",
+      "IFA",
+      "Comic-Con"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "IFA"
+  },
+  {
+    "id": 63,
+    "question": "Формат мероприятий Samsung, на которых компания представляет новые флагманы Galaxy, называется:",
+    "options": [
+      "Galaxy Unpacked",
+      "Galaxy Reveal",
+      "Galaxy Live"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Galaxy Unpacked"
+  },
+  {
+    "id": 64,
+    "question": "Помимо Сувона, крупные исследовательские центры Samsung также расположены в:",
+    "options": [
+      "Сеуле",
+      "Хельсинки",
+      "Мюнхене"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Сеуле"
+  },
+  {
+    "id": 65,
+    "question": "Нынешний председатель Samsung Electronics, внук основателя компании:",
+    "options": [
+      "Ли Бён Чхоль",
+      "Ли Гон Хи",
+      "Ли Джэ Ён"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Ли Джэ Ён"
+  },
+  {
+    "id": 66,
+    "question": "Подразделение группы Samsung, специализирующееся на судостроении, называется:",
+    "options": [
+      "Samsung Heavy Industries",
+      "Samsung Marine",
+      "Samsung Ocean"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Samsung Heavy Industries"
+  },
+  {
+    "id": 67,
+    "question": "Флагманский чип для смартфонов собственной разработки Samsung называется:",
+    "options": [
+      "Snapdragon",
+      "Exynos",
+      "Kirin"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Exynos"
+  },
+  {
+    "id": 68,
+    "question": "Подразделение Samsung SDI специализируется на производстве:",
+    "options": [
+      "аккумуляторов и батарей",
+      "самолётов",
+      "одежды"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "аккумуляторов и батарей"
+  },
+  {
+    "id": 69,
+    "question": "Помимо смартфонов, под брендом Galaxy также выпускаются:",
+    "options": [
+      "планшеты и смарт-часы",
+      "автомобили",
+      "кухонные комбайны"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "планшеты и смарт-часы"
+  },
+  {
+    "id": 70,
+    "question": "Официальным всемирным TOP-партнёром Олимпийских игр в категории беспроводной связи Samsung стала в:",
+    "options": [
+      "1988 году",
+      "1997 году",
+      "2012 году"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1997 году"
+  },
+  {
+    "id": 71,
+    "question": "Приложение Samsung для объединения и управления умными устройствами (телевизор, техника, датчики) в единой экосистеме называется:",
+    "options": [
+      "SmartThings",
+      "HomeConnect",
+      "Galaxy Home"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "SmartThings"
+  },
+  {
+    "id": 72,
+    "question": "Линейка игровых мониторов Samsung называется:",
+    "options": [
+      "Odyssey",
+      "Nova Gaming",
+      "Turbo Play"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Odyssey"
+  },
+  {
+    "id": 73,
+    "question": "Samsung Electronics — один из крупнейших работодателей в мире: штат её сотрудников исчисляется:",
+    "options": [
+      "сотнями тысяч человек",
+      "несколькими десятками человек",
+      "примерно тысячей человек"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "сотнями тысяч человек"
+  },
+  {
+    "id": 74,
+    "question": "В каком году умер основатель Samsung Ли Бён Чхоль?",
+    "options": [
+      "1979",
+      "1987",
+      "1995"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1987"
+  },
+  {
+    "id": 75,
+    "question": "Офисный комплекс группы компаний Samsung в Сеуле называется:",
+    "options": [
+      "Samsung Town",
+      "Samsung Plaza",
+      "Samsung District"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Samsung Town"
+  },
+  {
+    "id": 76,
+    "question": "В каком году Samsung Electronics стала крупнейшим в мире производителем смартфонов по числу проданных единиц?",
+    "options": [
+      "2010",
+      "2012",
+      "2018"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2012"
+  },
+  {
+    "id": 77,
+    "question": "Помимо электроники, в группу компаний Samsung также входит крупная компания в сфере:",
+    "options": [
+      "страхования жизни",
+      "кинопроизводства",
+      "авиаперевозок"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "страхования жизни"
+  },
+  {
+    "id": 78,
+    "question": "Какая певица выпустила в 2007 году вместе с Samsung телефон в собственных цветах — бордовом и золотом?",
+    "options": [
+      "Рианна",
+      "Бейонсе",
+      "Леди Гага"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Бейонсе"
+  },
+  {
+    "id": 79,
+    "question": "Для какой группы Samsung выпустил фиолетовые Galaxy S20+ и Buds+ с символикой группы и особым оформлением интерфейса?",
+    "options": [
+      "BLACKPINK",
+      "EXO",
+      "BTS"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "BTS"
+  },
+  {
+    "id": 80,
+    "question": "Какой супергерой появился на чёрно-золотом Galaxy S7 edge Injustice Edition?",
+    "options": [
+      "Бэтмен",
+      "Супермен",
+      "Флэш"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Бэтмен"
+  },
+  {
+    "id": 81,
+    "question": "Какому герою из вселенной Marvel Samsung посвятил красно-золотой Galaxy S6 edge Limited Edition?",
+    "options": [
+      "Капитану Америке",
+      "Железному человеку",
+      "Женщине-кошке"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Железному человеку"
+  },
+  {
+    "id": 82,
+    "question": "Как оформлен лимитированный смартфон Samsung  Galaxy Z Flip4 в коллаборации с Maison Margiela?",
+    "options": [
+      "Нанесением полупрозрачного рисунка, словно показывающий внутреннее устройство телефона",
+      "Покрытие корпуса графикой, похожей на страницы модного журнала",
+      "Добавлением зеркальной поверхности с выгравированным логотипом"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Нанесением полупрозрачного рисунка, словно показывающий внутреннее устройство телефона"
+  },
+  {
+    "id": 83,
+    "question": "Кто стал капитаном команды мировых футбольных звёзд, которую Samsung собрал для матча против инопланетян в кампании Galaxy 11 в 2013–2014 годах?",
+    "options": [
+      "Криштиану Роналду",
+      "Уэйн Руни",
+      "Лионель Месси"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Лионель Месси"
+  },
+  {
+    "id": 84,
+    "question": "Какая российская теннисистка стала лицом Samsung и участвовала в кампании бренда к Олимпиаде в Сочи — 2014?",
+    "options": [
+      "Анна Курникова",
+      "Мария Шарапова",
+      "Вера Звонарёва"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Мария Шарапова"
+  },
+  {
+    "id": 85,
+    "question": "С каким модным домом Samsung выпустил Galaxy Z Fold5 с фирменными красной, белой и синей полосами?",
+    "options": [
+      "Paul Smith",
+      "Ralph Lauren",
+      "Thom Browne"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Thom Browne"
+  },
+  {
+    "id": 86,
+    "question": "Какая супермодель снялась в кампании Samsung Galaxy Z Flip3, представленного в 2021 году?",
+    "options": [
+      "Наталья Водянова",
+      "Ирина Шейк",
+      "Саша Пивоварова"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Наталья Водянова"
+  },
+  {
+    "id": 87,
+    "question": "С каким брендом Samsung выпустил Galaxy Watch4 и Buds2, украшенные изображением лисы?",
+    "options": [
+      "Kenzo",
+      "Maison Kitsuné",
+      "Maison Margiela"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Maison Kitsuné"
+  },
+  {
+    "id": 88,
+    "question": "Что Samsung перенёс даже в интерфейс Galaxy S7 edge Olympic Games Limited Edition для Рио-2016?",
+    "options": [
+      "Цвета флага Бразилии",
+      "Изображения спортивных арен",
+      "Цвета пяти олимпийских колец"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Цвета пяти олимпийских колец"
+  },
+  {
+    "id": 89,
+    "question": "Какую модель Samsung выпустил в специальной жёлтой версии для участников Олимпийских игр в Париже в 2024 году?",
+    "options": [
+      "Galaxy S24 Ultra",
+      "Galaxy Z Flip6",
+      "Galaxy Z Fold6"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Galaxy Z Flip6"
+  },
+  {
+    "id": 90,
+    "question": "На каком курорте проходит фестиваль New Star Weekend?",
+    "options": [
+      "Роза Хутор",
+      "Красная Поляна Парк",
+      "Газпром"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Роза Хутор"
+  },
+  {
+    "id": 91,
+    "question": "Рядом с каким городом находится курорт Роза Хутор?",
+    "options": [
+      "Сочи",
+      "Кисловодск",
+      "Сухум"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Сочи"
+  },
+  {
+    "id": 92,
+    "question": "Сколько дней длится New Star Weekend 2026?",
+    "options": [
+      "три",
+      "четыре",
+      "пять"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "четыре"
+  },
+  {
+    "id": 93,
+    "question": "На каком курорте проходил первый фестиваль New Star Camp?",
+    "options": [
+      "Игора",
+      "Туутари-Парк",
+      "Роза Хутор"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Роза Хутор"
+  },
+  {
+    "id": 94,
+    "question": "Каким по счёту стал фестиваль New Star Weekend в 2026 году?",
+    "options": [
+      "четвертым",
+      "пятым",
+      "шестым"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "пятым"
+  },
+  {
+    "id": 95,
+    "question": "Как называется тема (концепция) New Star Weekend 2026 года?",
+    "options": [
+      "The Matter",
+      "The Rise",
+      "The Ocean"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "The Matter"
+  },
+  {
+    "id": 96,
+    "question": "Как называется знаковая локация фестиваля, где гости встречают закат?",
+    "options": [
+      "«Сансетошная»",
+      "«Рассветная»",
+      "«Полуночная»"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "«Сансетошная»"
+  },
+  {
+    "id": 97,
+    "question": "Какая самая высокая точка курорта «Роза Хутор»?",
+    "options": [
+      "2509.0",
+      "3160.0",
+      "2734.0"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "2509.0"
+  },
+  {
+    "id": 98,
+    "question": "Какой вид спорта не представлен на New Star Weekend 2026?",
+    "options": [
+      "BMX",
+      "Скейтбординг",
+      "Йога"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "BMX"
+  },
+  {
+    "id": 99,
+    "question": "На склонах какого горного хребта расположен курорт Роза Хутор?",
+    "options": [
+      "Аибга",
+      "Псехако",
+      "Ачишхо"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Аибга"
+  },
+  {
+    "id": 100,
+    "question": "Какие виды спорта были представлены на New Star Weekend 2024?",
+    "options": [
+      "BMX / Скейтбординг",
+      "Велосипед",
+      "Все перечисленные"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Все перечисленные"
+  },
+  {
+    "id": 101,
+    "question": "Сколько человек может принять участие в велогонке на фестивале?",
+    "options": [
+      "150.0",
+      "200.0",
+      "250.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "200.0"
+  },
+  {
+    "id": 102,
+    "question": "Тема New Star Weekend, посвящённая стихии воды, называлась:",
+    "options": [
+      "Waterfall",
+      "Ocean Deep",
+      "Blue Wave"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Waterfall"
+  },
+  {
+    "id": 103,
+    "question": "Тема New Star Weekend, посвящённая стихии воздуха, называлась:",
+    "options": [
+      "Sky High",
+      "Air / Эйр",
+      "Wind Rider"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Air / Эйр"
+  },
+  {
+    "id": 104,
+    "question": "Тема New Star Weekend, посвящённая стихии огня, называлась:",
+    "options": [
+      "Ember",
+      "Wildfire",
+      "Inner Glow"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Inner Glow"
+  },
+  {
+    "id": 105,
+    "question": "Какое количество участников собрал фестиваль New Star Camp в 2026 году?",
+    "options": [
+      "более 14 000 участников",
+      "более 10 000 участников",
+      "более 20 000 участников"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "более 14 000 участников"
+  },
+  {
+    "id": 106,
+    "question": "Сколько лет назад началась история фестиваля?",
+    "options": [
+      "15 лет назад",
+      "17 лет назад",
+      "19 лет назад"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "19 лет назад"
+  },
+  {
+    "id": 107,
+    "question": "В каком году впервые были введены соревнования в формате джем-сессии на фигуре?",
+    "options": [
+      "2018.0",
+      "2020.0",
+      "2026.0"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "2018.0"
+  },
+  {
+    "id": 108,
+    "question": "Сколько музыкантов собрала музыкальная программа Quiksilver New Star Camp 2023?",
+    "options": [
+      "около 40",
+      "около 60",
+      "около 80"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "около 60"
+  },
+  {
+    "id": 109,
+    "question": "На какой высоте расположен главный скейтпарк?",
+    "options": [
+      "560.0",
+      "1100.0",
+      "1600.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1100.0"
+  },
+  {
+    "id": 110,
+    "question": "Скейт-тур, который стартовал в мае и финиширует финалом на New Star Weekend 2026, объехал по России:",
+    "options": [
+      "9 города",
+      "11 городов",
+      "14 городов"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "11 городов"
+  },
+  {
+    "id": 111,
+    "question": "Какая сцена располагается на Аллее Флагов Горной Олимпийской деревни (1100 м)?",
+    "options": [
+      "ESCAPE STAGE",
+      "ECHO STAGE",
+      "VIBES STAGE"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "ECHO STAGE"
+  },
+  {
+    "id": 112,
+    "question": "В какое время года проходит фестиваль New Star Camp?",
+    "options": [
+      "весной",
+      "летом",
+      "поздней осенью"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "весной"
+  },
+  {
+    "id": 113,
+    "question": "В каком году был официально открыт горнолыжный курорт Роза Хутор?",
+    "options": [
+      "2007.0",
+      "2010.0",
+      "2014.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2010.0"
+  },
+  {
+    "id": 114,
+    "question": "Самая высокая точка курорта Роза Хутор называется:",
+    "options": [
+      "Каменный столб",
+      "Аибга-1",
+      "Роза Пик"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Каменный столб"
+  },
+  {
+    "id": 115,
+    "question": "Сколько километров горнолыжных трасс на курорте Роза Хутор?",
+    "options": [
+      "20 км",
+      "105 км",
+      "77 км"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "105 км"
+  },
+  {
+    "id": 116,
+    "question": "На первом фестивале New Star Weekend в 2022 году работало сцен:",
+    "options": [
+      "две",
+      "четыре",
+      "пять"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "пять"
+  },
+  {
+    "id": 117,
+    "question": "К какому году Quiksilver New Star Camp стал крупнейшим в Восточной Европе сноубордическим контестом?",
+    "options": [
+      "2010.0",
+      "2012.0",
+      "2014.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2012.0"
+  },
+  {
+    "id": 118,
+    "question": "Перепад высот на курорте Роза Хутор составляет примерно:",
+    "options": [
+      "500 м",
+      "1534 м",
+      "3000 м"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1534 м"
+  },
+  {
+    "id": 119,
+    "question": "Сколько подъёмников работает на курорте Роза Хутор?",
+    "options": [
+      "5.0",
+      "32.0",
+      "40.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "32.0"
+  },
+  {
+    "id": 120,
+    "question": "Отдельный спин-офф фестиваля, посвящённый кинопоказам и видеоконтенту, называется:",
+    "options": [
+      "New Star Film",
+      "New Star Cinema",
+      "New Star Film Festival"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "New Star Film Festival"
+  },
+  {
+    "id": 121,
+    "question": "В каком году состоялся юбилейный 10 фестиваль New Star Camp?",
+    "options": [
+      "2017.0",
+      "2019.0",
+      "2018.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2019.0"
+  },
+  {
+    "id": 122,
+    "question": "Название фестивальной темы 2026 года творчески также вдохновлено природным началом:",
+    "options": [
+      "Землёй",
+      "Водой",
+      "Воздухом"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Землёй"
+  },
+  {
+    "id": 123,
+    "question": "Международный тур, в рамках которого в 2010-х проходили соревнования, назывался Ticket To Ride (TTR); в 2012 году фестивалю был присвоен статус:",
+    "options": [
+      "4 звезды TTR",
+      "1 звезда TTR",
+      "6 звёзд TTR"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "4 звезды TTR"
+  },
+  {
+    "id": 124,
+    "question": "Когда и где был создан первый скейтборд?",
+    "options": [
+      "1950-е годы в Австралии",
+      "1950-е годы на Гавайях",
+      "1950-е годы в Калифорнии"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "1950-е годы в Калифорнии"
+  },
+  {
+    "id": 125,
+    "question": "В каком году скейтбординг был включен в программу Олимпийских игр?",
+    "options": [
+      "2016.0",
+      "2020.0",
+      "2024.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2020.0"
+  },
+  {
+    "id": 126,
+    "question": "Какой стиль скейтбординга включает в себя выполнение трюков на улице?",
+    "options": [
+      "Freestyle",
+      "Street",
+      "Vert"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Street"
+  },
+  {
+    "id": 127,
+    "question": "Какой объект использовался в качестве первого скейтборда?",
+    "options": [
+      "Ледянка",
+      "Строительная доска",
+      "Доска для серфинга"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Доска для серфинга"
+  },
+  {
+    "id": 128,
+    "question": "Какое действие является заменой аплодисментов в скейт-тусовке?",
+    "options": [
+      "Стук досками",
+      "Поднятие досок вверх",
+      "Поднятие рук вверх"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Стук досками"
+  },
+  {
+    "id": 129,
+    "question": "Кто из Черепашек-ниндзя больше всего любит кататься на скейтборде?",
+    "options": [
+      "Микеланджело",
+      "Леонардо",
+      "Рафаэль"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Микеланджело"
+  },
+  {
+    "id": 130,
+    "question": "Международный сноубордический тур, в рамках которого в 2010-х годах соревновались райдеры, назывался:",
+    "options": [
+      "Ticket To Ride (TTR)",
+      "New Star Invitational",
+      "World Snow Cup"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Ticket To Ride (TTR)"
+  },
+  {
+    "id": 131,
+    "question": "Легендарная команда, чьи гоночные грузовики устроили трюковое шоу на New Star Invitational 2012 года, называется:",
+    "options": [
+      "Лада Спорт",
+      "Формула-1 Россия",
+      "КАМАЗ-Мастер"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "КАМАЗ-Мастер"
+  },
+  {
+    "id": 132,
+    "question": "Американский райдер, прославившийся экстремальными трюками на снегоходе и квадроцикле и выступавший на New Star Invitational 2012 года, — это:",
+    "options": [
+      "Калеб Мур (Caleb Moore)",
+      "Леви Лавалле (Levi LaVallee)",
+      "Хит Фрисби (Heath Frisby)"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Калеб Мур (Caleb Moore)"
+  },
+  {
+    "id": 133,
+    "question": "Один из легендарных райдеров, гостивших на New Star в разные годы, Candide Thovex всемирно известен как:",
+    "options": [
+      "фристайл-лыжник",
+      "сёрфер",
+      "сноубордист"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "фристайл-лыжник"
+  },
+  {
+    "id": 134,
+    "question": "В каком году состоялось первое официальное соревнование по скейтбордингу?",
+    "options": [
+      "1963.0",
+      "1971.0",
+      "1934.0"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "1963.0"
+  },
+  {
+    "id": 135,
+    "question": "Какой элемент инфраструктуры скейтеры освоили во время засухи в Америке в начале 70-х годов?",
+    "options": [
+      "парки",
+      "бассейны",
+      "стройки"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "бассейны"
+  },
+  {
+    "id": 136,
+    "question": "Победителем New Star Invitational 2011 года стал райдер из Швеции:",
+    "options": [
+      "Феликс Мобарг (Felix Mobarg)",
+      "Даниэль Бодин",
+      "Тревор Эндрю"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Феликс Мобарг (Felix Mobarg)"
+  },
+  {
+    "id": 137,
+    "question": "На New Star Invitational 2011 года лучший результат среди россиян показал:",
+    "options": [
+      "Сергей Лапушкин",
+      "Андрей Москвин",
+      "Михаил Ильин"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Сергей Лапушкин"
+  },
+  {
+    "id": 138,
+    "question": "Двукратный чемпион зимних X-Games, выполнивший двойной бэкфлип на снегоходе на шоу New Star Invitational 2011 года, — это:",
+    "options": [
+      "Тревор Эндрю",
+      "Шон Уайт",
+      "Даниэль Бодин"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Даниэль Бодин"
+  },
+  {
+    "id": 139,
+    "question": "Название контеста для девушек на Quiksilver New Star Camp 2018 года — «Make Waves Move …»:",
+    "options": [
+      "Oceans",
+      "Mountains",
+      "Rivers"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Mountains"
+  },
+  {
+    "id": 140,
+    "question": "Trouble Andrew — бывший профессиональный сноубордист, участник зимних Олимпийских игр:",
+    "options": [
+      "никогда не участвовал в Олимпиаде",
+      "2010 и 2014 годов",
+      "1998 и 2002 годов"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "1998 и 2002 годов"
+  },
+  {
+    "id": 141,
+    "question": "Международный тур Ticket To Ride (TTR) присваивает соревнованиям звёздный рейтинг; максимальный, самый престижный статус в этой системе:",
+    "options": [
+      "4 звезды",
+      "6 звёзд",
+      "5 звёзд"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "6 звёзд"
+  },
+  {
+    "id": 142,
+    "question": "В каком году команда КАМАЗ-Мастер устроила грузовик-шоу сразу после финиша:",
+    "options": [
+      "2010.0",
+      "2014.0",
+      "2012.0"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "2012.0"
+  },
+  {
+    "id": 143,
+    "question": "Курорт, где проходил Quiksilver New Star Invitational в 2011–2013 годах, назывался:",
+    "options": [
+      "«Игора»",
+      "«Шерегеш»",
+      "«Домбай»"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "«Игора»"
+  },
+  {
+    "id": 144,
+    "question": "В 2017 году, при переезде фестиваля на курорт «Роза Хутор», шейперы впервые выстроили схему катания сразу через:",
+    "options": [
+      "три парка подряд за один спуск",
+      "один общий парк для всех уровней",
+      "отдельные парки для новичков и профи"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "три парка подряд за один спуск"
+  },
+  {
+    "id": 145,
+    "question": "Победителем контеста Red Bull Roll The Dice на курорте «Роза Хутор» в 2017 году стал:",
+    "options": [
+      "Марк Теймуров",
+      "Евгений Иванов",
+      "Юра Чемодуров"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Марк Теймуров"
+  },
+  {
+    "id": 146,
+    "question": "Главный шейпер парка Quiksilver New Star Camp Дмитрий Куксёнок начинал строить первые сноуборд-лагеря в городе:",
+    "options": [
+      "Сочи",
+      "Кировск",
+      "Красноярск"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Кировск"
+  },
+  {
+    "id": 147,
+    "question": "На юбилейном Quiksilver New Star Camp 2019 года фестиваль впервые за свою историю проходил на протяжении:",
+    "options": [
+      "десяти дней",
+      "пяти дней",
+      "трех дней"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "десяти дней"
+  },
+  {
+    "id": 148,
+    "question": "Что означает число 1100 в названии велогонки Peak Climb Ride 1100?",
+    "options": [
+      "Длину маршрута в метрах",
+      "Высоту финиша над уровнем моря",
+      "Общий набор высоты"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Высоту финиша над уровнем моря"
+  },
+  {
+    "id": 149,
+    "question": "Сноубордист скользит по периле, держа доску вдоль него. Как называется трюк?",
+    "options": [
+      "Boardslide",
+      "50–50",
+      "Tailpress"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "50–50"
+  },
+  {
+    "id": 150,
+    "question": "Как называется трюк, в котором сноубордист скользит по периле на доске, развёрнутой поперёк него?",
+    "options": [
+      "Boardslide",
+      "50–50",
+      "Nosepress"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Boardslide"
+  },
+  {
+    "id": 151,
+    "question": "Что означает switch в названии сноубордического трюка?",
+    "options": [
+      "Заезд на перило с другой стороны",
+      "Езда в непривычной стойке",
+      "Смена перила во время трюка"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Езда в непривычной стойке"
+  },
+  {
+    "id": 152,
+    "question": "На какой части скейта райдер скользит по периле при грайнде 50–50?",
+    "options": [
+      "На двух подвесках",
+      "Только на передней подвеске",
+      "Серединой деки"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "На двух подвесках"
+  },
+  {
+    "id": 153,
+    "question": "Скейтер скользит по периле только на задней подвеске. Как называется грайнд?",
+    "options": [
+      "Nosegrind",
+      "50–50",
+      "5–0"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "5–0"
+  },
+  {
+    "id": 154,
+    "question": "Чем скейтовый boardslide отличается от грайнда 50–50?",
+    "options": [
+      "Скользит дека, а не подвески",
+      "Трюк выполняется только с вращением",
+      "Райдер едет в обратную сторону"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Скользит дека, а не подвески"
+  },
+  {
+    "id": 155,
+    "question": "В каком формате сноубордисты за один заезд показывают трюки и на перилах, и на трамплинах?",
+    "options": [
+      "Big air",
+      "Слоупстайл",
+      "Rail jam"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Слоупстайл"
+  },
+  {
+    "id": 156,
+    "question": "Как обычно называют соревнование, сосредоточенное на трюках на перилах и боксах, где у райдеров есть несколько попыток?",
+    "options": [
+      "Rail jam",
+      "Big air",
+      "Хафпайп"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Rail jam"
+  },
+  {
+    "id": 157,
+    "question": "В каком формате оценивают отдельный трюк, а не всю связку заездов по трассе?",
+    "options": [
+      "Слоупстайл",
+      "Best trick",
+      "Rail jam"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Best trick"
+  },
+  {
+    "id": 158,
+    "question": "В какой соревновательной дисциплине скейтбординга райдеры выполняют трюки на перилах, ступенях и элементах, похожих на городские препятствия?",
+    "options": [
+      "Стрит",
+      "Парк",
+      "Верт"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Стрит"
+  },
+  {
+    "id": 159,
+    "question": "Откуда появилось название курорта «Роза Хутор»?",
+    "options": [
+      "От фамилии местного жителя",
+      "От диких роз, росших на склонах",
+      "От названия горной реки"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "От фамилии местного жителя"
+  },
+  {
+    "id": 160,
+    "question": "Соревнования по каким видам спорта проходили на «Розе Хутор» во время Олимпиады 2014 года?",
+    "options": [
+      "Горные лыжи, сноуборд и фристайл",
+      "Биатлон, прыжки с трамплина и бобслей",
+      "Лыжные гонки, хоккей и кёрлинг"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Горные лыжи, сноуборд и фристайл"
+  },
+  {
+    "id": 161,
+    "question": "На каком курорте состоялся первый New Star Invitational?",
+    "options": [
+      "На курорте «Игора»",
+      "На курорте «Туутари-парк»",
+      "На курорте «Роза Хутор»"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "На курорте «Туутари-парк»"
+  },
+  {
+    "id": 162,
+    "question": "Как назывался фестиваль до появления названия New Star Camp?",
+    "options": [
+      "New Star Invitational",
+      "New Star Open",
+      "New Star Weekend"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "New Star Invitational"
+  },
+  {
+    "id": 163,
+    "question": "В каком году впервые прошёл New Star Invitational?",
+    "options": [
+      "2008.0",
+      "2011.0",
+      "2012.0"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "2008.0"
+  },
+  {
+    "id": 164,
+    "question": "Что необычного произошло в 2012 году?",
+    "options": [
+      "New Star прошёл и на «Игоре», и на «Розе Хутор»",
+      "Фестиваль впервые переехал в «Горки Город»",
+      "Впервые прошли два кэмпа на «Розе Хутор»"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "New Star прошёл и на «Игоре», и на «Розе Хутор»"
+  },
+  {
+    "id": 165,
+    "question": "На каком курорте проходил New Star Camp с 2014 по 2016 год?",
+    "options": [
+      "«Роза Хутор»",
+      "«Горки Город»",
+      "«Игора»"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "«Горки Город»"
+  },
+  {
+    "id": 166,
+    "question": "В каком году New Star Camp вернулся на курорт «Роза Хутор» после трёх лет в «Горки Городе»?",
+    "options": [
+      "2016.0",
+      "2017.0",
+      "2018.0"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2017.0"
+  },
+  {
+    "id": 167,
+    "question": "Какой бренд фигурировал в названии New Star Invitational и New Star Camp в 2011–2019 годах?",
+    "options": [
+      "Burton",
+      "Quiksilver",
+      "DC Shoes"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Quiksilver"
+  },
+  {
+    "id": 168,
+    "question": "Какая надпись появилась на афише New Star Camp 2019 года?",
+    "options": [
+      "Celebration 10",
+      "Back to the Roots",
+      "First Snow"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Celebration 10"
+  },
+  {
+    "id": 169,
+    "question": "Какая группа выступила на New Star Invitational в 2013 году, а неделю спустя прославилась на весь интернет клипом Bad Motherfucker?",
+    "options": [
+      "Tesla Boy",
+      "Biting Elbows",
+      "Pompeya"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Biting Elbows"
+  },
+  {
+    "id": 170,
+    "question": "Какой российский сноубордист выиграл Quiksilver New Star Invitational в 2013 году, а позже выступил на Олимпиаде в Сочи в слоупстайле?",
+    "options": [
+      "Вик Уайлд",
+      "Никита Автанеев",
+      "Алексей Соболев"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Алексей Соболев"
+  }
+]
