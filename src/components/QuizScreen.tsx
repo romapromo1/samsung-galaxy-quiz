@@ -87,25 +87,25 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="flex-1 flex flex-col justify-between p-6 md:p-10 w-full h-full bg-white select-none">
-      {/* Top HUD: clean, minimalist */}
-      <div className="w-full space-y-3">
+    <div className="flex-1 flex flex-col justify-between p-6 md:p-12 w-full h-full bg-white select-none">
+      {/* Top HUD */}
+      <div className="w-full space-y-4">
         <div className="flex items-center justify-between">
-          <div className="text-base md:text-xl font-medium text-slate-500">
+          <div className="text-xl md:text-3xl font-semibold text-slate-500">
             Вопрос {currentIndex + 1}
           </div>
 
-          <div className="font-mono text-3xl md:text-5xl font-black text-slate-900 tracking-tight">
-            {timeLeft} <span className="text-xl md:text-2xl font-normal text-slate-500">сек</span>
+          <div className="font-mono text-4xl md:text-7xl font-black text-slate-900 tracking-tight">
+            {timeLeft} <span className="text-2xl md:text-4xl font-medium text-slate-400">сек</span>
           </div>
 
-          <div className="text-base md:text-xl font-bold text-slate-900">
-            Правильно: <span className="text-emerald-600">{correctCount}</span>
+          <div className="text-xl md:text-3xl font-bold text-slate-900">
+            Правильно: <span className="text-emerald-600 font-extrabold">{correctCount}</span>
           </div>
         </div>
 
         {/* Progress bar */}
-        <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+        <div className="w-full h-3 bg-slate-100 rounded-full overflow-hidden">
           <div
             className="h-full bg-slate-900 rounded-full transition-all duration-1000 ease-linear"
             style={{ width: `${progressPercentage}%` }}
@@ -113,17 +113,17 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
         </div>
       </div>
 
-      {/* Center Question Card: spans wide across unfolded display */}
-      <div className="my-auto py-6 flex items-center justify-center">
-        <div className="w-full bg-slate-50 border border-slate-200 rounded-3xl p-8 md:p-12 text-center shadow-xs">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-slate-900 leading-snug tracking-tight">
+      {/* Center Question Card */}
+      <div className="my-auto py-6 flex items-center justify-center w-full">
+        <div className="w-full bg-slate-50 border border-slate-200 rounded-3xl md:rounded-[40px] p-8 md:p-14 text-center shadow-xs">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-snug tracking-tight">
             {currentQuestion.question}
           </h2>
         </div>
       </div>
 
-      {/* Answer Options Grid: 2 columns on unfolded wide screens or stacked */}
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 pb-2">
+      {/* Answer Options Grid */}
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 pb-2">
         {currentQuestion.options.map((option) => {
           const isSelected = selectedOption?.text === option.text;
           let btnStyle = 'bg-white border-2 border-slate-200 text-slate-900 hover:border-slate-400 hover:bg-slate-50';
@@ -139,10 +139,10 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
               key={option.letter}
               onClick={() => handleSelectOption(option)}
               disabled={isLocked}
-              className={`w-full min-h-[80px] md:min-h-[100px] px-6 py-5 rounded-2xl md:rounded-3xl flex items-center gap-4 text-left font-semibold text-lg md:text-2xl transition-all duration-150 active:scale-98 cursor-pointer ${btnStyle}`}
+              className={`w-full min-h-[90px] md:min-h-[120px] px-8 py-6 rounded-2xl md:rounded-3xl flex items-center gap-6 text-left font-semibold text-xl md:text-3xl lg:text-4xl transition-all duration-150 active:scale-98 cursor-pointer ${btnStyle}`}
             >
               <span
-                className={`w-12 h-12 md:w-14 md:h-14 rounded-2xl flex items-center justify-center font-bold text-xl md:text-2xl shrink-0 ${
+                className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center font-bold text-2xl md:text-3xl shrink-0 ${
                   isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-700'
                 }`}
               >

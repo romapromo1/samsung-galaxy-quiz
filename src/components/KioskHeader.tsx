@@ -1,19 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Maximize2, Minimize2, Settings2 } from 'lucide-react';
-import type { DeviceMode } from '../types/quiz';
 import { getSessionHistory, clearSessionHistory } from '../utils/sessionManager';
 
 interface KioskHeaderProps {
-  deviceMode: DeviceMode;
-  setDeviceMode: (mode: DeviceMode) => void;
   onResetSession?: () => void;
 }
 
-export const KioskHeader: React.FC<KioskHeaderProps> = ({
-  deviceMode,
-  setDeviceMode,
-  onResetSession,
-}) => {
+export const KioskHeader: React.FC<KioskHeaderProps> = ({ onResetSession }) => {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [showAdminModal, setShowAdminModal] = useState(false);
   const [historyStats, setHistoryStats] = useState<number[][]>([]);
@@ -53,46 +46,11 @@ export const KioskHeader: React.FC<KioskHeaderProps> = ({
   return (
     <>
       <header className="w-full flex items-center justify-between px-6 py-3 bg-white border-b border-slate-200 z-40 select-none">
-        {/* Left: Minimal label */}
-        <div className="text-xs uppercase tracking-wider font-semibold text-slate-500">
+        <div className="text-xs uppercase tracking-wider font-semibold text-slate-400">
           Samsung Galaxy Z Fold Kiosk
         </div>
 
-        {/* Right: Device Switcher & Controls */}
         <div className="flex items-center gap-2">
-          <div className="flex items-center bg-slate-100 rounded-xl p-1 text-xs">
-            <button
-              onClick={() => setDeviceMode('auto')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                deviceMode === 'auto'
-                  ? 'bg-white text-slate-900 shadow-sm'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              Auto
-            </button>
-            <button
-              onClick={() => setDeviceMode('fold8')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                deviceMode === 'fold8'
-                  ? 'bg-white text-slate-900 shadow-sm'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              Fold 8
-            </button>
-            <button
-              onClick={() => setDeviceMode('fold8ultra')}
-              className={`px-3 py-1.5 rounded-lg font-medium transition-all ${
-                deviceMode === 'fold8ultra'
-                  ? 'bg-white text-slate-900 shadow-sm'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              Fold 8 Ultra
-            </button>
-          </div>
-
           <button
             onClick={toggleFullscreen}
             className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer"
