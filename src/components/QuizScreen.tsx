@@ -91,15 +91,16 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
       {/* Top HUD */}
       <div className="w-full space-y-1.5 sm:space-y-3 shrink-0">
         <div className="flex items-center justify-between">
-          <div className="text-xs sm:text-base md:text-xl font-bold text-slate-500">
+          <div className="text-sm sm:text-xl md:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight whitespace-nowrap">
             ВОПРОС {currentIndex + 1}
           </div>
 
-          <div className="font-mono text-xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
-            {timeLeft} <span className="text-base sm:text-xl md:text-2xl font-bold text-slate-400">СЕК</span>
+          <div className="text-sm sm:text-xl md:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight flex items-baseline justify-center whitespace-nowrap">
+            <span>{timeLeft}</span>
+            <span className="text-slate-400 font-bold ml-1 sm:ml-1.5">СЕК</span>
           </div>
 
-          <div className="text-xs sm:text-base md:text-xl font-black text-slate-900">
+          <div className="text-sm sm:text-xl md:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight text-right whitespace-nowrap">
             ПРАВИЛЬНО: <span className="text-emerald-600">{correctCount}</span>
           </div>
         </div>
