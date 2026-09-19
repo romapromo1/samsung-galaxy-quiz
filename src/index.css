@@ -2,7 +2,7 @@
 
 @layer base {
   :root {
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -16,37 +16,7 @@
     user-select: none;
     -webkit-user-select: none;
     overscroll-behavior: none;
-    background-color: #090d16;
+    background-color: #ffffff;
+    color: #0f172a;
   }
-}
-
-/* Pulse glow effects */
-@keyframes calm-pulse {
-  0%, 100% {
-    opacity: 0.25;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 0.45;
-    transform: scale(1.04);
-  }
-}
-
-.animate-calm-pulse {
-  animation: calm-pulse 7s ease-in-out infinite;
-}
-
-/* Custom scrollbar just in case inner lists ever scroll */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 9999px;
 }
