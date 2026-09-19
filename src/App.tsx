@@ -55,12 +55,7 @@ export function App() {
   return (
     <div className="w-screen h-screen h-[100dvh] flex flex-col bg-white text-slate-900 overflow-hidden select-none">
       {/* Top minimal header */}
-      <KioskHeader
-        onResetSession={() => {
-          setResult(null);
-          setGameState('idle');
-        }}
-      />
+      <KioskHeader />
 
       {/* Main full-screen edge-to-edge area */}
       <main className="flex-1 flex flex-col w-full h-full bg-white overflow-hidden">

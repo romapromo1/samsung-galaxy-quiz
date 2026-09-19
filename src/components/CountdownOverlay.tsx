@@ -21,7 +21,7 @@ export const CountdownOverlay: React.FC<CountdownOverlayProps> = ({ onFinish }) 
   }, [count, onFinish]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-white flex flex-col items-center justify-center select-none">
+    <div className="fixed inset-0 z-50 bg-white flex flex-col items-center justify-center select-none uppercase">
       <div
         key={count}
         className="text-9xl md:text-[14rem] font-black text-slate-900 tracking-tighter animate-pulse"

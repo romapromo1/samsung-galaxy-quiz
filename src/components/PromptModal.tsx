@@ -7,12 +7,12 @@ interface PromptModalProps {
 
 export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) => {
   return (
-    <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-xs flex items-center justify-center p-6 md:p-12 animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-xs flex items-center justify-center p-6 md:p-12 animate-in fade-in duration-150 uppercase">
       <div className="relative w-full max-w-4xl bg-white border border-slate-200 rounded-[36px] md:rounded-[48px] p-8 md:p-16 shadow-2xl flex flex-col items-center text-center space-y-10">
         
-        {/* Exact prompt text */}
-        <p className="text-3xl md:text-5xl lg:text-6xl text-slate-900 font-bold leading-relaxed tracking-tight">
-          Ответьте на максимальное количество вопросов за 60 секунд. Если готовы, жмите «СТАРТ»
+        {/* Exact prompt text in uppercase */}
+        <p className="text-3xl md:text-5xl lg:text-6xl text-slate-900 font-extrabold leading-relaxed tracking-tight">
+          ОТВЕТЬТЕ НА МАКСИМАЛЬНОЕ КОЛИЧЕСТВО ВОПРОСОВ ЗА 60 СЕКУНД. ЕСЛИ ГОТОВЫ, ЖМИТЕ «СТАРТ»
         </p>
 
         {/* Action Buttons */}
@@ -25,9 +25,9 @@ export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) =>
           </button>
           <button
             onClick={onClose}
-            className="h-24 md:h-28 px-10 rounded-2xl md:rounded-3xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-2xl md:text-3xl transition-all cursor-pointer flex items-center justify-center"
+            className="h-24 md:h-28 px-10 rounded-2xl md:rounded-3xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-black text-2xl md:text-3xl transition-all cursor-pointer flex items-center justify-center"
           >
-            Назад
+            НАЗАД
           </button>
         </div>
       </div>

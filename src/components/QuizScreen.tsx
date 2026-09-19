@@ -87,20 +87,20 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="flex-1 flex flex-col justify-between p-6 md:p-12 w-full h-full bg-white select-none">
+    <div className="flex-1 flex flex-col justify-between p-6 md:p-10 w-full h-full bg-white select-none uppercase">
       {/* Top HUD */}
-      <div className="w-full space-y-4">
+      <div className="w-full space-y-3">
         <div className="flex items-center justify-between">
-          <div className="text-xl md:text-3xl font-semibold text-slate-500">
-            Вопрос {currentIndex + 1}
+          <div className="text-xl md:text-3xl font-bold text-slate-500">
+            ВОПРОС {currentIndex + 1}
           </div>
 
-          <div className="font-mono text-4xl md:text-7xl font-black text-slate-900 tracking-tight">
-            {timeLeft} <span className="text-2xl md:text-4xl font-medium text-slate-400">сек</span>
+          <div className="font-mono text-4xl md:text-6xl font-black text-slate-900 tracking-tight">
+            {timeLeft} <span className="text-2xl md:text-3xl font-bold text-slate-400">СЕК</span>
           </div>
 
-          <div className="text-xl md:text-3xl font-bold text-slate-900">
-            Правильно: <span className="text-emerald-600 font-extrabold">{correctCount}</span>
+          <div className="text-xl md:text-3xl font-black text-slate-900">
+            ПРАВИЛЬНО: <span className="text-emerald-600">{correctCount}</span>
           </div>
         </div>
 
@@ -114,16 +114,16 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
       </div>
 
       {/* Center Question Card */}
-      <div className="my-auto py-6 flex items-center justify-center w-full">
-        <div className="w-full bg-slate-50 border border-slate-200 rounded-3xl md:rounded-[40px] p-8 md:p-14 text-center shadow-xs">
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-snug tracking-tight">
+      <div className="my-auto py-4 flex items-center justify-center w-full">
+        <div className="w-full bg-slate-50 border-2 border-slate-200 rounded-3xl md:rounded-[36px] p-6 md:p-12 text-center shadow-xs">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-black text-slate-900 leading-snug tracking-tight">
             {currentQuestion.question}
           </h2>
         </div>
       </div>
 
-      {/* Answer Options Grid */}
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 pb-2">
+      {/* Answer Options: strictly stacked vertically one under another */}
+      <div className="w-full flex flex-col gap-3 md:gap-4 pb-2">
         {currentQuestion.options.map((option) => {
           const isSelected = selectedOption?.text === option.text;
           let btnStyle = 'bg-white border-2 border-slate-200 text-slate-900 hover:border-slate-400 hover:bg-slate-50';
@@ -139,11 +139,11 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
               key={option.letter}
               onClick={() => handleSelectOption(option)}
               disabled={isLocked}
-              className={`w-full min-h-[90px] md:min-h-[120px] px-8 py-6 rounded-2xl md:rounded-3xl flex items-center gap-6 text-left font-semibold text-xl md:text-3xl lg:text-4xl transition-all duration-150 active:scale-98 cursor-pointer ${btnStyle}`}
+              className={`w-full min-h-[85px] md:min-h-[105px] lg:min-h-[120px] px-8 py-5 rounded-2xl md:rounded-3xl flex items-center gap-6 text-left font-bold text-xl md:text-3xl lg:text-4xl transition-all duration-150 active:scale-98 cursor-pointer ${btnStyle}`}
             >
               <span
-                className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center font-bold text-2xl md:text-3xl shrink-0 ${
-                  isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-700'
+                className={`w-14 h-14 md:w-18 md:h-18 rounded-2xl flex items-center justify-center font-black text-2xl md:text-4xl shrink-0 ${
+                  isSelected ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-800'
                 }`}
               >
                 {option.letter}

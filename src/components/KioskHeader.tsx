@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Maximize2, Minimize2, Settings2 } from 'lucide-react';
-import { getSessionHistory, clearSessionHistory } from '../utils/sessionManager';
+import { Maximize2, Minimize2 } from 'lucide-react';
 
-interface KioskHeaderProps {
-  onResetSession?: () => void;
-}
-
-export const KioskHeader: React.FC<KioskHeaderProps> = ({ onResetSession }) => {
+export const KioskHeader: React.FC = () => {
   const [isFullscreen, setIsFullscreen] = useState(false);
-  const [showAdminModal, setShowAdminModal] = useState(false);
-  const [historyStats, setHistoryStats] = useState<number[][]>([]);
 
   useEffect(() => {
     const handleFsChange = () => {
@@ -31,79 +24,15 @@ export const KioskHeader: React.FC<KioskHeaderProps> = ({ onResetSession }) => {
     }
   };
 
-  const openAdmin = () => {
-    setHistoryStats(getSessionHistory());
-    setShowAdminModal(true);
-  };
-
-  const handleClearHistory = () => {
-    clearSessionHistory();
-    setHistoryStats([]);
-    if (onResetSession) onResetSession();
-    alert('Память сессий очищена.');
-  };
-
   return (
-    <>
-      <header className="w-full flex items-center justify-between px-6 py-3 bg-white border-b border-slate-200 z-40 select-none">
-        <div className="text-xs uppercase tracking-wider font-semibold text-slate-400">
-          Samsung Galaxy Z Fold Kiosk
-        </div>
-
-        <div className="flex items-center gap-2">
-          <button
-            onClick={toggleFullscreen}
-            className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer"
-            title="Полный экран"
-          >
-            {isFullscreen ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
-          </button>
-
-          <button
-            onClick={openAdmin}
-            className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 transition-all cursor-pointer"
-            title="Память сессий"
-          >
-            <Settings2 size={16} />
-          </button>
-        </div>
-      </header>
-
-      {/* Admin Modal */}
-      {showAdminModal && (
-        <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-xs flex items-center justify-center p-4">
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 max-w-sm w-full shadow-xl space-y-4">
-            <h3 className="text-base font-bold text-slate-900">
-              Память сессий
-            </h3>
-            <p className="text-xs text-slate-600">
-              В памяти сохраняются последние 2 сессии (0 повторов в n+1, не более 2 в n+2).
-            </p>
-            <div className="bg-slate-50 p-3 rounded-xl border border-slate-200 space-y-1 text-xs text-slate-700">
-              <div>Сессий в памяти: <strong>{historyStats.length} / 2</strong></div>
-              {historyStats.map((s, i) => (
-                <div key={i} className="text-slate-500">
-                  Сессия {i + 1}: {s.length} вопросов
-                </div>
-              ))}
-            </div>
-            <div className="flex gap-2 pt-2">
-              <button
-                onClick={handleClearHistory}
-                className="flex-1 py-2 px-3 rounded-xl bg-rose-50 text-rose-700 hover:bg-rose-100 text-xs font-semibold"
-              >
-                Очистить
-              </button>
-              <button
-                onClick={() => setShowAdminModal(false)}
-                className="flex-1 py-2 px-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-semibold"
-              >
-                Закрыть
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
+    <header className="w-full flex items-center justify-end px-6 py-3 bg-white z-40 select-none">
+      <button
+        onClick={toggleFullscreen}
+        className="p-3 rounded-2xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all cursor-pointer"
+        title="НА ВЕСЬ ЭКРАН"
+      >
+        {isFullscreen ? <Minimize2 size={24} /> : <Maximize2 size={24} />}
+      </button>
+    </header>
   );
 };
