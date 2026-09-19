@@ -87,9 +87,9 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="flex-1 flex flex-col justify-between p-3 sm:p-6 md:p-10 lg:p-14 w-full min-h-full bg-white select-none uppercase">
+    <div className="flex-1 flex flex-col justify-start md:justify-between p-3 sm:p-6 md:p-10 lg:p-14 w-full min-h-full bg-white select-none uppercase pb-24 sm:pb-28 md:pb-6">
       {/* Top HUD */}
-      <div className="w-full space-y-1.5 sm:space-y-3">
+      <div className="w-full space-y-1.5 sm:space-y-3 shrink-0">
         <div className="flex items-center justify-between">
           <div className="text-xs sm:text-base md:text-xl font-bold text-slate-500">
             ВОПРОС {currentIndex + 1}
@@ -114,7 +114,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
       </div>
 
       {/* Center Question Card */}
-      <div className="my-2 sm:my-3 md:my-auto py-1 sm:py-2 md:py-3 flex items-center justify-center w-full">
+      <div className="mt-3 mb-3 sm:my-3 md:my-auto py-1 sm:py-2 md:py-3 flex items-center justify-center w-full shrink-0">
         <div className="w-full bg-slate-50 border-2 border-slate-300 p-3.5 sm:p-6 md:p-12 text-center shadow-xs">
           <h2 className="text-sm sm:text-lg md:text-3xl lg:text-4xl xl:text-5xl font-black text-slate-900 leading-snug tracking-tight">
             {currentQuestion.question}

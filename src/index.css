@@ -16,7 +16,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    touch-action: manipulation;
+    touch-action: pan-y;
     user-select: none;
     -webkit-user-select: none;
     background-color: #ffffff;

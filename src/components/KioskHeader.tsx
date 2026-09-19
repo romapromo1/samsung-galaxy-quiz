@@ -25,13 +25,13 @@ export const KioskHeader: React.FC = () => {
   };
 
   return (
-    <header className="w-full flex items-center justify-end px-4 py-2 sm:px-6 sm:py-3 bg-white z-40 select-none">
+    <header className="w-full flex items-center justify-end px-3 py-1 sm:px-6 sm:py-3 bg-white z-40 select-none">
       <button
         onClick={toggleFullscreen}
-        className="p-3 bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all cursor-pointer border border-slate-300"
+        className="p-2 sm:p-3 bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all cursor-pointer border border-slate-300"
         title="НА ВЕСЬ ЭКРАН"
       >
-        {isFullscreen ? <Minimize2 size={24} /> : <Maximize2 size={24} />}
+        {isFullscreen ? <Minimize2 className="w-5 h-5 sm:w-6 sm:h-6" /> : <Maximize2 className="w-5 h-5 sm:w-6 sm:h-6" />}
       </button>
     </header>
   );

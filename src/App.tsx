@@ -58,7 +58,7 @@ export function App() {
       <KioskHeader />
 
       {/* Main full-screen edge-to-edge area */}
-      <main className="flex-1 flex flex-col w-full bg-white overflow-y-auto overflow-x-hidden">
+      <main className="flex-1 flex flex-col w-full bg-white overflow-y-auto overflow-x-hidden min-h-0">
         {gameState === 'idle' && <WelcomeScreen onPlayClick={handlePlayClick} />}
 
         {gameState === 'modal' && (
