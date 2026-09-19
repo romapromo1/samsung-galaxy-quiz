@@ -87,7 +87,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="flex-1 flex flex-col justify-between p-3 sm:p-5 md:p-10 w-full max-w-[1100px] mx-auto min-h-full bg-white select-none uppercase">
+    <div className="flex-1 flex flex-col justify-between p-3 sm:p-6 md:p-10 lg:p-14 w-full min-h-full bg-white select-none uppercase">
       {/* Top HUD */}
       <div className="w-full space-y-1.5 sm:space-y-3">
         <div className="flex items-center justify-between">
