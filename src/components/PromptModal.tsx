@@ -10,8 +10,8 @@ export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) =>
     <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 md:p-10 animate-in fade-in duration-150 uppercase">
       <div className="relative w-full max-w-xl sm:max-w-2xl md:max-w-3xl max-h-[92vh] overflow-y-auto bg-white border-2 border-slate-300 p-5 sm:p-7 md:p-10 shadow-2xl flex flex-col items-center text-center space-y-5 sm:space-y-7 md:space-y-8">
         
-        {/* Responsive prompt text */}
-        <p className="text-lg sm:text-xl md:text-2xl font-black text-slate-900 leading-snug tracking-tight font-brand-headline">
+        {/* Responsive prompt text: 2x larger */}
+        <p className="text-xl sm:text-3xl md:text-4xl font-black text-slate-900 leading-snug tracking-tight font-brand-headline">
           ОТВЕТЬТЕ НА МАКСИМАЛЬНОЕ КОЛИЧЕСТВО ВОПРОСОВ ЗА 60 СЕКУНД. ЕСЛИ ГОТОВЫ, ЖМИТЕ «НАЧАТЬ»
         </p>
 
