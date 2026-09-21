@@ -25,7 +25,7 @@ export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) =>
           </button>
           <button
             onClick={onClose}
-            className="flex-1 h-14 sm:h-16 md:h-20 bg-slate-100 hover:bg-slate-200 active:scale-95 text-slate-800 font-black text-xl sm:text-2xl md:text-3xl tracking-wider transition-all cursor-pointer flex items-center justify-center border-2 border-slate-300"
+            className="flex-1 h-14 sm:h-16 md:h-20 bg-slate-100 hover:bg-slate-200 active:scale-95 text-slate-800 font-black text-xl sm:text-2xl md:text-3xl tracking-[0.015em] transition-all cursor-pointer flex items-center justify-center border-2 border-slate-300"
           >
             НАЗАД
           </button>
