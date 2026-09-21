@@ -87,44 +87,45 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="flex-1 flex flex-col justify-start md:justify-between p-3 sm:p-6 md:p-10 lg:p-14 w-full min-h-full bg-white select-none uppercase pb-24 sm:pb-28 md:pb-6">
-      {/* Top HUD */}
-      <div className="w-full space-y-1.5 sm:space-y-3 shrink-0">
-        <div className="flex items-center justify-between">
-          <div className="text-sm sm:text-xl md:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight whitespace-nowrap">
-            ВОПРОС {currentIndex + 1}
+    <div className="w-full h-full max-h-full flex flex-col p-3 sm:p-4 md:p-5 lg:p-6 max-w-4xl mx-auto bg-white select-none uppercase overflow-hidden">
+      {/* Top Fixed Section: HUD + Question Card stays in place */}
+      <div className="w-full shrink-0">
+        {/* Top HUD */}
+        <div className="w-full space-y-1.5 sm:space-y-2">
+          <div className="flex items-center justify-between text-xs sm:text-sm md:text-base font-black text-slate-900 tracking-tight whitespace-nowrap">
+            <div>
+              ВОПРОС {currentIndex + 1}
+            </div>
+
+            <div className="flex items-baseline justify-center">
+              <span>{timeLeft}</span>
+              <span className="text-slate-400 font-bold ml-1">СЕК</span>
+            </div>
+
+            <div className="text-right">
+              ПРАВИЛЬНО: <span className="text-emerald-600">{correctCount}</span>
+            </div>
           </div>
 
-          <div className="text-sm sm:text-xl md:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight flex items-baseline justify-center whitespace-nowrap">
-            <span>{timeLeft}</span>
-            <span className="text-slate-400 font-bold ml-1 sm:ml-1.5">СЕК</span>
-          </div>
-
-          <div className="text-sm sm:text-xl md:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight text-right whitespace-nowrap">
-            ПРАВИЛЬНО: <span className="text-emerald-600">{correctCount}</span>
+          {/* Progress bar */}
+          <div className="w-full h-1.5 sm:h-2 bg-slate-100 overflow-hidden">
+            <div
+              className="h-full bg-slate-900 transition-all duration-1000 ease-linear"
+              style={{ width: `${progressPercentage}%` }}
+            />
           </div>
         </div>
 
-        {/* Progress bar */}
-        <div className="w-full h-1.5 sm:h-3 md:h-4 bg-slate-100 overflow-hidden">
-          <div
-            className="h-full bg-slate-900 transition-all duration-1000 ease-linear"
-            style={{ width: `${progressPercentage}%` }}
-          />
-        </div>
-      </div>
-
-      {/* Center Question Card */}
-      <div className="mt-3 mb-3 sm:my-3 md:my-auto py-1 sm:py-2 md:py-3 flex items-center justify-center w-full shrink-0">
-        <div className="w-full bg-slate-50 border-2 border-slate-300 p-3.5 sm:p-6 md:p-12 text-center shadow-xs">
-          <h2 className="text-sm sm:text-lg md:text-3xl lg:text-4xl xl:text-5xl font-black text-slate-900 leading-snug tracking-tight">
+        {/* Center Question Card: compact, calibrated to never push options off screen */}
+        <div className="w-full bg-slate-50 border-2 border-slate-300 p-3 sm:p-4 md:p-5 text-center shadow-xs mt-2 sm:mt-2.5 mb-2 sm:mb-2.5">
+          <h2 className="text-xs sm:text-sm md:text-base lg:text-lg font-black text-slate-900 leading-snug tracking-tight">
             {currentQuestion.question}
           </h2>
         </div>
       </div>
 
-      {/* Answer Options: fully responsive while preserving exact Fold8/Fold8 Ultra look */}
-      <div className="w-full flex flex-col gap-2 sm:gap-3 md:gap-4 lg:gap-5 pb-2 sm:pb-3">
+      {/* Answer Options: Independent smooth scrollable container */}
+      <div className="w-full flex-1 min-h-0 overflow-y-auto flex flex-col justify-start gap-2 sm:gap-2.5 md:gap-3 py-1 pr-1 overscroll-contain">
         {currentQuestion.options.map((option) => {
           const isSelected = selectedOption?.text === option.text;
           let btnStyle = 'bg-white border-2 border-slate-300 text-slate-900 hover:border-black hover:bg-slate-50';
@@ -140,10 +141,10 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
               key={option.letter}
               onClick={() => handleSelectOption(option)}
               disabled={isLocked}
-              className={`w-full min-h-[48px] sm:min-h-[64px] md:min-h-[90px] lg:min-h-[110px] xl:min-h-[125px] px-3 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3.5 md:py-5 lg:py-6 flex items-center gap-3 sm:gap-4 md:gap-6 text-left font-black text-xs sm:text-base md:text-xl lg:text-3xl xl:text-4xl transition-all duration-150 active:scale-98 cursor-pointer ${btnStyle}`}
+              className={`w-full min-h-[46px] sm:min-h-[50px] md:min-h-[56px] px-3 sm:px-4 md:px-5 py-2 sm:py-2.5 md:py-3 flex items-center gap-3 sm:gap-4 text-left font-black text-xs sm:text-sm md:text-base transition-all duration-150 active:scale-98 cursor-pointer shrink-0 ${btnStyle}`}
             >
               <span
-                className={`w-8 h-8 sm:w-10 sm:h-10 md:w-14 md:h-14 lg:w-18 lg:h-18 flex items-center justify-center font-black text-xs sm:text-base md:text-2xl lg:text-4xl shrink-0 border border-slate-300 ${
+                className={`w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 flex items-center justify-center font-black text-xs sm:text-sm md:text-base shrink-0 border border-slate-300 ${
                   isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-slate-100 text-slate-900'
                 }`}
               >

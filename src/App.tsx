@@ -52,9 +52,9 @@ export function App() {
   };
 
   return (
-    <div className="w-full min-h-screen min-h-[100dvh] flex flex-col bg-white text-slate-900 overflow-x-hidden select-none">
+    <div className="w-full h-full h-[100dvh] max-h-[100dvh] flex flex-col bg-white text-slate-900 overflow-hidden select-none">
       {/* Main full-screen edge-to-edge area */}
-      <main className="flex-1 flex flex-col w-full bg-white overflow-y-auto overflow-x-hidden min-h-0">
+      <main className="flex-1 flex flex-col w-full h-full min-h-0 bg-white overflow-hidden">
         {gameState === 'idle' && <WelcomeScreen onPlayClick={handlePlayClick} />}
 
         {gameState === 'modal' && (
