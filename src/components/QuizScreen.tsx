@@ -118,7 +118,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
 
         {/* Center Question Card: bold and prominent for Fold / Fold Ultra with increased spacing from line */}
         <div className="w-full bg-slate-50 border-2 border-slate-300 p-3.5 sm:p-4 md:py-5 md:px-8 text-center shadow-xs mt-4 sm:mt-6 md:mt-7 mb-2.5 sm:mb-3">
-          <h2 className="text-lg sm:text-xl md:text-2xl font-black text-slate-900 leading-snug tracking-tight font-brand-headline">
+          <h2 className="text-xl sm:text-3xl md:text-4xl font-black text-slate-900 leading-snug tracking-normal font-brand-headline">
             {currentQuestion.question}
           </h2>
         </div>
