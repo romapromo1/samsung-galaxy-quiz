@@ -107,10 +107,10 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
             </div>
           </div>
 
-          {/* Progress bar */}
+          {/* Progress bar: Samsung brand blue */}
           <div className="w-full h-1.5 sm:h-2 md:h-2.5 bg-slate-100 overflow-hidden">
             <div
-              className="h-full bg-slate-900 transition-all duration-1000 ease-linear"
+              className="h-full bg-[#1428a0] transition-all duration-1000 ease-linear"
               style={{ width: `${progressPercentage}%` }}
             />
           </div>
@@ -128,7 +128,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
       <div className="w-full flex-1 min-h-0 overflow-y-auto flex flex-col justify-start md:justify-center gap-2.5 sm:gap-3 md:gap-3.5 py-1 pr-1 overscroll-contain">
         {currentQuestion.options.map((option) => {
           const isSelected = selectedOption?.text === option.text;
-          let btnStyle = 'bg-white border-2 border-slate-300 text-slate-900 hover:border-black hover:bg-slate-50';
+          let btnStyle = 'bg-white border-2 border-slate-300 text-slate-900 hover:border-[#1428a0] hover:bg-blue-50/20';
 
           if (isSelected) {
             btnStyle = option.isCorrect
@@ -144,8 +144,8 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
               className={`w-full min-h-[50px] sm:min-h-[58px] md:min-h-[68px] lg:min-h-[74px] px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-3.5 flex items-center gap-3.5 sm:gap-5 md:gap-6 text-left font-black text-xs sm:text-base md:text-xl lg:text-2xl transition-all duration-150 active:scale-98 cursor-pointer shrink-0 ${btnStyle}`}
             >
               <span
-                className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 flex items-center justify-center font-black text-xs sm:text-base md:text-xl lg:text-2xl shrink-0 border border-slate-300 ${
-                  isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-slate-100 text-slate-900'
+                className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 flex items-center justify-center font-black text-xs sm:text-base md:text-xl lg:text-2xl shrink-0 border ${
+                  isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-[#1428a0] text-white border-[#1428a0]'
                 }`}
               >
                 {option.letter}

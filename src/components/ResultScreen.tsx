@@ -20,7 +20,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart })
         <span className="text-sm sm:text-base md:text-2xl font-black text-slate-800 leading-tight">
           КОЛИЧЕСТВО ПРАВИЛЬНЫХ ОТВЕТОВ:
         </span>
-        <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-slate-900 tracking-tight leading-none">
+        <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-[#1428a0] tracking-tight leading-none">
           {result.correctCount}
         </div>
         <div className="text-xs sm:text-sm md:text-lg text-slate-500 font-extrabold pt-1">
@@ -32,7 +32,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart })
       <div className="w-full max-w-xs sm:max-w-sm md:max-w-md pb-2 sm:pb-3">
         <button
           onClick={onRestart}
-          className="w-full h-12 sm:h-15 md:h-18 bg-black text-white hover:bg-slate-800 active:scale-95 font-black text-sm sm:text-lg md:text-2xl shadow-xl transition-all cursor-pointer flex items-center justify-center border-2 border-black"
+          className="w-full h-12 sm:h-15 md:h-18 bg-[#1428a0] text-white hover:bg-[#0f1f80] active:scale-95 font-black text-sm sm:text-lg md:text-2xl shadow-xl transition-all cursor-pointer flex items-center justify-center border-2 border-[#1428a0]"
         >
           СЫГРАТЬ ЕЩЁ РАЗ
         </button>

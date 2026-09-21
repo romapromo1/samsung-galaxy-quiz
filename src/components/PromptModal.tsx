@@ -19,7 +19,7 @@ export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) =>
         <div className="w-full flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-5 pt-1 sm:pt-2 max-w-xl">
           <button
             onClick={onStart}
-            className="flex-1 h-12 sm:h-15 md:h-18 bg-black hover:bg-slate-800 active:scale-95 text-white font-black text-sm sm:text-lg md:text-2xl shadow-xl transition-all cursor-pointer flex items-center justify-center border-2 border-black"
+            className="flex-1 h-12 sm:h-15 md:h-18 bg-[#1428a0] hover:bg-[#0f1f80] active:scale-95 text-white font-black text-sm sm:text-lg md:text-2xl shadow-xl transition-all cursor-pointer flex items-center justify-center border-2 border-[#1428a0]"
           >
             НАЧАТЬ
           </button>
