@@ -15,17 +15,17 @@ export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) =>
           ОТВЕТЬТЕ НА МАКСИМАЛЬНОЕ КОЛИЧЕСТВО ВОПРОСОВ ЗА 60 СЕКУНД. ЕСЛИ ГОТОВЫ, ЖМИТЕ «НАЧАТЬ»
         </p>
 
-        {/* Buttons: identical text size, responsive on mobile */}
+        {/* Buttons: identical size and font to WelcomeScreen button */}
         <div className="w-full flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-5 pt-1 sm:pt-2 max-w-xl">
           <button
             onClick={onStart}
-            className="flex-1 h-12 sm:h-15 md:h-18 bg-[#1428a0] hover:bg-[#0f1f80] active:scale-95 text-white font-black text-sm sm:text-lg md:text-2xl shadow-xl transition-all cursor-pointer flex items-center justify-center border-2 border-[#1428a0]"
+            className="flex-1 h-14 sm:h-16 md:h-20 bg-[#1428a0] hover:bg-[#0f1f80] active:scale-95 text-white font-black text-xl sm:text-2xl md:text-3xl tracking-wider shadow-xl transition-all cursor-pointer flex items-center justify-center border-2 border-[#1428a0]"
           >
             НАЧАТЬ
           </button>
           <button
             onClick={onClose}
-            className="flex-1 h-12 sm:h-15 md:h-18 bg-slate-100 hover:bg-slate-200 text-slate-800 font-black text-sm sm:text-lg md:text-2xl transition-all cursor-pointer flex items-center justify-center border-2 border-slate-300"
+            className="flex-1 h-14 sm:h-16 md:h-20 bg-slate-100 hover:bg-slate-200 active:scale-95 text-slate-800 font-black text-xl sm:text-2xl md:text-3xl tracking-wider transition-all cursor-pointer flex items-center justify-center border-2 border-slate-300"
           >
             НАЗАД
           </button>
