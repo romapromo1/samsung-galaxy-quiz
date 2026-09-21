@@ -103,7 +103,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
             </div>
 
             <div className="text-right">
-              ПРАВИЛЬНО: <span className="text-emerald-600">{correctCount}</span>
+              ПРАВИЛЬНО: <span className="text-slate-900 font-black">{correctCount}</span>
             </div>
           </div>
 

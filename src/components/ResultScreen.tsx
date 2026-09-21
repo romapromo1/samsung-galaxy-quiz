@@ -20,7 +20,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart })
         <span className="text-sm sm:text-base md:text-2xl font-black text-slate-800 leading-tight">
           КОЛИЧЕСТВО ПРАВИЛЬНЫХ ОТВЕТОВ:
         </span>
-        <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-[#1428a0] tracking-tight leading-none">
+        <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-slate-900 tracking-tight leading-none">
           {result.correctCount}
         </div>
         <div className="text-xs sm:text-sm md:text-lg text-slate-500 font-extrabold pt-1">
