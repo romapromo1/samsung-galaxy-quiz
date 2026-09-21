@@ -1,6 +1,36 @@
 @import "tailwindcss";
 
 @font-face {
+  font-family: 'Samsung Sharp Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SamsungSharpSans-Bold.woff') format('woff'),
+       url('/fonts/SamsungSharpSans-Bold.ttf') format('truetype'),
+       url('/fonts/SamsungSharpSans-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SamsungOne-400.woff') format('woff'),
+       url('/fonts/SamsungOne-400.ttf') format('truetype'),
+       url('/fonts/SamsungOne-400.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SamsungOne';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SamsungOne-700.woff') format('woff'),
+       url('/fonts/SamsungOne-700.ttf') format('truetype'),
+       url('/fonts/SamsungOne-700.otf') format('opentype');
+}
+
+@font-face {
   font-family: 'Unbounded';
   font-style: normal;
   font-weight: 100 900;
@@ -35,7 +65,7 @@
 
 @layer base {
   :root {
-    font-family: 'Unbounded', 'Manrope', system-ui, sans-serif;
+    font-family: 'Samsung Sharp Sans', 'SamsungOne', 'Unbounded', system-ui, -apple-system, sans-serif;
     -webkit-tap-highlight-color: transparent;
     text-transform: uppercase;
   }
@@ -54,7 +84,7 @@
     -webkit-user-select: none;
     background-color: #ffffff;
     color: #0f172a;
-    font-family: 'Unbounded', 'Manrope', system-ui, sans-serif;
+    font-family: 'Samsung Sharp Sans', 'SamsungOne', 'Unbounded', system-ui, -apple-system, sans-serif;
     text-transform: uppercase;
     border-radius: 0px !important;
   }
