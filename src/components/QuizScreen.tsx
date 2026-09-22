@@ -87,7 +87,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="w-full h-full max-h-full flex flex-col px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 max-w-5xl mx-auto bg-white select-none uppercase overflow-hidden">
+    <div className="w-full h-full max-h-full flex flex-col px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 max-w-3xl mx-auto bg-white select-none uppercase overflow-hidden">
       {/* Top Fixed Section: HUD + Question Card stays firmly in place */}
       <div className="w-full shrink-0">
         {/* Top HUD */}
@@ -141,16 +141,18 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
               key={option.letter}
               onClick={() => handleSelectOption(option)}
               disabled={isLocked}
-              className={`w-full min-h-[50px] sm:min-h-[58px] md:min-h-[68px] lg:min-h-[74px] px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-3.5 flex items-center gap-3.5 sm:gap-5 md:gap-6 text-left font-black text-xs sm:text-base md:text-xl lg:text-2xl tracking-wide transition-all duration-150 active:scale-98 cursor-pointer shrink-0 ${btnStyle}`}
+              className={`w-full h-14 sm:h-16 md:h-20 flex items-stretch text-left font-black tracking-wide transition-all duration-150 active:scale-98 cursor-pointer shrink-0 overflow-hidden ${btnStyle}`}
             >
               <span
-                className={`w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 lg:w-13 lg:h-13 flex items-center justify-center font-black text-xs sm:text-base md:text-xl lg:text-2xl shrink-0 border ${
+                className={`w-14 sm:w-16 md:w-20 shrink-0 flex items-center justify-center font-black text-xl sm:text-2xl md:text-3xl border-r ${
                   isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-[#1428a0] text-white border-[#1428a0]'
                 }`}
               >
                 {option.letter}
               </span>
-              <span className="flex-1 leading-snug">{option.text}</span>
+              <span className="flex-1 px-4 sm:px-6 md:px-8 flex items-center text-xl sm:text-2xl md:text-3xl font-black leading-snug">
+                {option.text}
+              </span>
             </button>
           );
         })}
