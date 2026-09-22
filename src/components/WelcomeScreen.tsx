@@ -9,7 +9,9 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onPlayClick }) => 
     <div className="relative flex-1 flex flex-col items-center justify-center p-6 sm:p-8 w-full h-full bg-white select-none uppercase">
       <div className="w-full flex flex-col items-center text-center space-y-6 sm:space-y-8 md:space-y-10 max-w-3xl px-4">
         <h1 className="text-xl sm:text-3xl md:text-4xl font-black text-slate-900 leading-snug tracking-normal font-brand-headline max-w-2xl">
-          КАК МНОГО ТЫ ЗНАЕШЬ О SAMSUNG GALAXY И ФЕСТИВАЛЯХ NEW STAR?
+          КАК МНОГО ТЫ ЗНАЕШЬ
+          <br />
+          О SAMSUNG GALAXY И ФЕСТИВАЛЯХ NEW STAR?
         </h1>
 
         <button
