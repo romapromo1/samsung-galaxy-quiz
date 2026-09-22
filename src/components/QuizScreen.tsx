@@ -87,7 +87,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="w-full h-full max-h-full flex flex-col px-4 sm:px-6 md:px-8 py-3 sm:py-4 md:py-5 max-w-3xl mx-auto bg-white select-none uppercase overflow-hidden">
+    <div className="w-full h-full max-h-full flex flex-col px-4 sm:px-6 md:px-8 pt-3 sm:pt-4 md:pt-5 pb-2 sm:pb-3 max-w-3xl mx-auto bg-white select-none uppercase overflow-hidden">
       {/* Top Fixed Section: HUD + Question Card stays firmly in place */}
       <div className="w-full shrink-0">
         {/* Top HUD */}
@@ -116,16 +116,16 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
           </div>
         </div>
 
-        {/* Center Question Card: bold and prominent for Fold / Fold Ultra with increased spacing from line */}
-        <div className="w-full bg-slate-50 border-2 border-slate-300 p-3.5 sm:p-4 md:py-5 md:px-8 text-center shadow-xs mt-4 sm:mt-6 md:mt-7 mb-2.5 sm:mb-3">
-          <h2 className="text-xl sm:text-3xl md:text-4xl font-black text-slate-900 leading-snug tracking-normal font-brand-headline">
+        {/* Center Question Card: compact, matching options font size */}
+        <div className="w-full bg-slate-50 border-2 border-slate-300 p-2.5 sm:p-3.5 md:py-3.5 md:px-6 text-center shadow-xs mt-2.5 sm:mt-3 md:mt-4 mb-2 sm:mb-2.5">
+          <h2 className="text-base sm:text-lg md:text-2xl font-black text-slate-900 leading-snug tracking-normal font-brand-headline">
             {currentQuestion.question}
           </h2>
         </div>
       </div>
 
       {/* Answer Options: Independent smooth scrollable container, centered on Fold/Fold Ultra */}
-      <div className="w-full flex-1 min-h-0 overflow-y-auto flex flex-col justify-start md:justify-center gap-2.5 sm:gap-3 md:gap-3.5 py-1 pr-1 overscroll-contain">
+      <div className="w-full flex-1 min-h-0 overflow-y-auto flex flex-col justify-start md:justify-center gap-2 sm:gap-2.5 md:gap-3 py-1 pr-1 overscroll-contain">
         {currentQuestion.options.map((option) => {
           const isSelected = selectedOption?.text === option.text;
           let btnStyle = 'bg-white border-2 border-slate-300 text-slate-900 hover:border-[#1428a0] hover:bg-blue-50/20';
@@ -141,16 +141,16 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
               key={option.letter}
               onClick={() => handleSelectOption(option)}
               disabled={isLocked}
-              className={`w-full h-14 sm:h-16 md:h-20 flex items-stretch text-left font-black tracking-wide transition-all duration-150 active:scale-98 cursor-pointer shrink-0 overflow-hidden ${btnStyle}`}
+              className={`w-full min-h-[42px] sm:min-h-[48px] md:min-h-[60px] flex items-stretch text-left font-black tracking-wide transition-all duration-150 active:scale-98 cursor-pointer shrink-0 overflow-hidden ${btnStyle}`}
             >
               <span
-                className={`w-14 sm:w-16 md:w-20 shrink-0 flex items-center justify-center font-black text-xl sm:text-2xl md:text-3xl border-r ${
+                className={`w-[42px] sm:w-[48px] md:w-[60px] shrink-0 self-stretch flex items-center justify-center font-black text-base sm:text-lg md:text-2xl border-r ${
                   isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-[#1428a0] text-white border-[#1428a0]'
                 }`}
               >
                 {option.letter}
               </span>
-              <span className="flex-1 px-4 sm:px-6 md:px-8 flex items-center text-xl sm:text-2xl md:text-3xl font-black leading-snug">
+              <span className="flex-1 py-1.5 px-3 sm:px-5 md:px-6 flex items-center text-base sm:text-lg md:text-2xl font-black leading-snug">
                 {option.text}
               </span>
             </button>
