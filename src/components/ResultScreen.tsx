@@ -8,7 +8,7 @@ interface ResultScreenProps {
 
 export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onRestart }) => {
   return (
-    <div className="w-full h-full max-h-full flex flex-col justify-between items-center px-3 sm:px-4 md:px-6 py-4 sm:py-6 md:py-8 bg-white select-none uppercase overflow-y-auto">
+    <div className="w-full h-full max-h-full flex flex-col justify-between items-center px-5 sm:px-7 md:px-9 py-4 sm:py-6 md:py-8 max-w-4xl mx-auto bg-white select-none uppercase overflow-y-auto">
       <div className="w-full text-center">
         <h2 className="text-xs sm:text-sm md:text-lg font-extrabold text-slate-400">
           ВРЕМЯ ВЫШЛО

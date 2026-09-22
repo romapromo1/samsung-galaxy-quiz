@@ -87,7 +87,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
   const progressPercentage = (timeLeft / TOTAL_TIME) * 100;
 
   return (
-    <div className="w-full h-full max-h-full flex flex-col px-2.5 sm:px-3.5 md:px-4 pt-3 sm:pt-4 md:pt-5 pb-2 sm:pb-3 bg-white select-none uppercase overflow-hidden">
+    <div className="w-full h-full max-h-full flex flex-col px-5 sm:px-7 md:px-9 pt-3 sm:pt-4 md:pt-5 pb-2 sm:pb-3 max-w-4xl mx-auto bg-white select-none uppercase overflow-hidden">
       {/* Top Fixed Section: HUD + Question Card stays firmly in place */}
       <div className="w-full shrink-0">
         {/* Top HUD */}
