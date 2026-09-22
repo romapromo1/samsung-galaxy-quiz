@@ -12,7 +12,7 @@ export const PromptModal: React.FC<PromptModalProps> = ({ onStart, onClose }) =>
         
         {/* Responsive prompt text */}
         <p className="text-xl sm:text-3xl md:text-4xl font-black text-slate-900 leading-snug tracking-normal font-brand-headline">
-          ОТВЕТЬТЕ НА МАКСИМАЛЬНОЕ КОЛИЧЕСТВО ВОПРОСОВ ЗА 60 СЕКУНД. ЕСЛИ ГОТОВЫ, ЖМИТЕ «НАЧАТЬ»
+          ОТВЕТЬТЕ НА МАКСИМАЛЬНОЕ КОЛИЧЕСТВО ВОПРОСОВ ЗА 60 СЕКУНД.
         </p>
 
         {/* Buttons: identical size and font to WelcomeScreen button */}
