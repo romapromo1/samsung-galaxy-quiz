@@ -125,37 +125,39 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ questions, onFinish }) =
       </div>
 
       {/* Answer Options: Independent smooth scrollable container, centered on Fold/Fold Ultra */}
-      <div className="w-full flex-1 min-h-0 overflow-y-auto flex flex-col justify-start md:justify-center gap-2 sm:gap-2.5 md:gap-3 py-1 pr-1 overscroll-contain">
-        {currentQuestion.options.map((option) => {
-          const isSelected = selectedOption?.text === option.text;
-          let btnStyle = 'bg-white border-2 border-slate-300 text-slate-900 hover:border-[#1428a0] hover:bg-blue-50/20';
+      <div className="w-full flex-1 min-h-0 overflow-y-auto flex flex-col py-2 pr-1 overscroll-contain">
+        <div className="w-full my-auto flex flex-col gap-2.5 sm:gap-3 md:gap-3.5">
+          {currentQuestion.options.map((option) => {
+            const isSelected = selectedOption?.text === option.text;
+            let btnStyle = 'bg-white border-2 border-slate-300 text-slate-900 hover:border-[#1428a0] hover:bg-blue-50/20';
 
-          if (isSelected) {
-            btnStyle = option.isCorrect
-              ? 'bg-emerald-600 border-2 border-emerald-600 text-white'
-              : 'bg-rose-600 border-2 border-rose-600 text-white';
-          }
+            if (isSelected) {
+              btnStyle = option.isCorrect
+                ? 'bg-emerald-600 border-2 border-emerald-600 text-white'
+                : 'bg-rose-600 border-2 border-rose-600 text-white';
+            }
 
-          return (
-            <button
-              key={option.letter}
-              onClick={() => handleSelectOption(option)}
-              disabled={isLocked}
-              className={`w-full min-h-[42px] sm:min-h-[48px] md:min-h-[60px] flex items-stretch text-left font-black tracking-wide transition-all duration-150 active:scale-98 cursor-pointer shrink-0 overflow-hidden ${btnStyle}`}
-            >
-              <span
-                className={`w-[42px] sm:w-[48px] md:w-[60px] shrink-0 self-stretch flex items-center justify-center font-black text-base sm:text-lg md:text-2xl border-r ${
-                  isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-[#1428a0] text-white border-[#1428a0]'
-                }`}
+            return (
+              <button
+                key={option.letter}
+                onClick={() => handleSelectOption(option)}
+                disabled={isLocked}
+                className={`w-full min-h-[46px] sm:min-h-[52px] md:min-h-[60px] flex items-stretch text-left font-black tracking-wide transition-all duration-150 active:scale-98 cursor-pointer shrink-0 overflow-hidden ${btnStyle}`}
               >
-                {option.letter}
-              </span>
-              <span className="flex-1 py-1.5 px-3 sm:px-5 md:px-6 flex items-center text-base sm:text-lg md:text-2xl font-black leading-snug">
-                {option.text}
-              </span>
-            </button>
-          );
-        })}
+                <span
+                  className={`w-[46px] sm:w-[52px] md:w-[60px] shrink-0 self-stretch flex items-center justify-center font-black text-base sm:text-lg md:text-2xl border-r ${
+                    isSelected ? 'bg-white/20 text-white border-white/40' : 'bg-[#1428a0] text-white border-[#1428a0]'
+                  }`}
+                >
+                  {option.letter}
+                </span>
+                <span className="flex-1 py-1.5 px-3 sm:px-5 md:px-6 flex items-center text-base sm:text-lg md:text-2xl font-black leading-snug">
+                  {option.text}
+                </span>
+              </button>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
